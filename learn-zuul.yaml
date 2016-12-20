@@ -3,6 +3,14 @@ server:
 spring:
   profiles:
     active: dev
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        format: YAML
+        enabled: true
+        prefix: configuration
 ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
@@ -13,6 +21,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
+
 ---
 spring:
   profiles: beta
