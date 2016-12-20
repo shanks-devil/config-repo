@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: dev
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        format: YAML
+        enabled: true
+        prefix: configuration

@@ -52,7 +52,8 @@ mybatis:
   type-aliases-package: com.shanks.learn.user.mvc.domain
   executor-type: REUSE
 endpoints:
-  enabled: true
+  shutdown:
+    enabled: true
 
 application:
   api:
@@ -64,8 +65,8 @@ application:
     version: 1.0.0-SNAPSHOT
     contact:
       name: Shanks
-      url: https://github.com/shanks-devil/spring-boot-learning-redis
-      email: roux.d.shanks+git@gmail.com
+      url: https://github.com/shanks-devil/learn-parent
+      email: test+git@gmail.com
 ---
 server:
   port: 10087
