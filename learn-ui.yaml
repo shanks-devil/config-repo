@@ -13,6 +13,8 @@ spring:
         prefix: configuration
   thymeleaf:
     cache: false
+logging:
+  level: ERROR
 learn:
   api:
     user: http://learn-user
