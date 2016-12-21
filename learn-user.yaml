@@ -13,8 +13,6 @@ spring:
         format: YAML
         enabled: true
         prefix: configuration
-    config:
-      uri: http://learn-config
   cache:
     type: redis
     redis:
