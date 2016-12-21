@@ -11,6 +11,8 @@ spring:
         format: YAML
         enabled: true
         prefix: configuration
+  thymeleaf:
+    cache: true
 learn:
   api:
     user: http://learn-user
