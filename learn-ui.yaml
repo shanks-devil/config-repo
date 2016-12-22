@@ -14,7 +14,8 @@ spring:
   thymeleaf:
     cache: false
 logging:
-  level: ERROR
+  level:
+    root: ERROR
 learn:
   api:
     user: http://learn-user
