@@ -16,7 +16,7 @@ spring:
       discovery:
         instance-id: ${spring.application.name}:${spring.application.instance_id:${spring.profiles.active}}
         query-passing: true
-      enabled: true
+      enabled: false
   cache:
     type: redis
     redis:
